@@ -68,12 +68,16 @@ public class Day14Test {
         
     }
     
+    /**
+     * test for the method that return void
+     */
     @Test(expected = Exception.class)
     public void test5() {
     	Issue deleted = new Issue();
     	willThrow(new Exception()).given(repo).delete(deleted);
     	
     	repo.delete(deleted);
+    	
     }
     
     @Test

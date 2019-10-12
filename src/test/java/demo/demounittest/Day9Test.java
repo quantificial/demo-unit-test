@@ -8,7 +8,10 @@ import demo.demounittest.Issue.ActiveState;
 
 public class Day9Test {
 
-	
+	/**
+	 * use method to create data object
+	 * @return
+	 */
 	public Issue createIssue() {
 		Issue issue = new Issue();
 		
@@ -27,7 +30,7 @@ public class Day9Test {
 	}
 	
 	/**
-	 * use factory to create data
+	 * use factory to create data object
 	 */
 	@Test
 	public void test2() {

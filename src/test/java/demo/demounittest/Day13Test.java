@@ -21,6 +21,7 @@ public class Day13Test {
 		Issue configuredIssue = new Issue();
 		configuredIssue.setCreator("JF");
 		
+		// create stub and assign pre-defined object data to the stub
 		repository = new IssueRepositoryStub(configuredIssue);
 	}
     
@@ -32,6 +33,7 @@ public class Day13Test {
         Issue issue = new Issue();
         issue.setId(ID);
         
+        // it will return the pre-defined data object
         Issue actual = issueServiceImp.find(issue);
 
         assertThat(actual.getCreator()).isEqualTo("JF");

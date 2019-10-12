@@ -17,6 +17,7 @@ public class Issue {
     private String creator;
     private String solver;
     private String log;
+    private String title;
     
     public enum ActiveState {
     	TODO("todo"),
