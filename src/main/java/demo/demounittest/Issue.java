@@ -1,8 +1,15 @@
 package demo.demounittest;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 
 @Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class Issue {
     private Long id;
     private ActiveState activeState;
@@ -30,6 +37,8 @@ public class Issue {
     
     public enum ResultState {
     	RESOLVED,
-    	UNSOLVED
+    	UNSOLVED;
+    	
+    	ResultState() {}
     }
 }
