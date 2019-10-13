@@ -21,6 +21,7 @@ import org.junit.runner.RunWith;
  * 
  * with custom runner
  * 
+ * running the tests from MyRunner. class demo.demounittest.Day18Test
  * in test2 method...
  * in test1 method...
  * 
