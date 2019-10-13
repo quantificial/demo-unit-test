@@ -11,7 +11,7 @@ import org.mockito.invocation.InvocationOnMock;
 import org.mockito.stubbing.Answer;
 
 /**
- * use mock to test
+ * use mockito mock to test
  * @author Johnson Fu
  *
  */

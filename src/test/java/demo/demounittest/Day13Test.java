@@ -6,7 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * use stub to test with dependency 
+ * use custom stub to test with dependency 
  * 
  * @author Johnson Fu
  *
