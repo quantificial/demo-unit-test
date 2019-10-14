@@ -1,5 +1,7 @@
 package demo.demounittest;
 
+import javax.validation.constraints.NotBlank;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -17,7 +19,11 @@ public class Issue {
     private String creator;
     private String solver;
     private String log;
+    
+    // title must not be blank
+    @NotBlank
     private String title;
+    
     
     public enum ActiveState {
     	TODO("todo"),
