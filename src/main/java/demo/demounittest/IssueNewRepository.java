@@ -9,4 +9,6 @@ public interface IssueNewRepository {
     Issue findById(Long id);
 
     Issue save(Issue issue);
+    
+    Issue getBigIssue();
 }

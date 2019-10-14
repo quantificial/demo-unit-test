@@ -41,4 +41,10 @@ final public class IssueRepositoryFake implements IssueNewRepository {
 		// TODO Auto-generated method stub
 		
 	}
+
+	@Override
+	public Issue getBigIssue() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

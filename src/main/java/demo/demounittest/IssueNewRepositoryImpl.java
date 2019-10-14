@@ -1,5 +1,8 @@
 package demo.demounittest;
 
+import org.springframework.stereotype.Repository;
+
+@Repository
 public class IssueNewRepositoryImpl implements IssueNewRepository {
 
 	@Override
@@ -24,5 +27,11 @@ public class IssueNewRepositoryImpl implements IssueNewRepository {
 		return issue;
 	}
 	
+    @Override
+    public Issue getBigIssue() {
+        Issue issue = new Issue();
+        issue.setTitle("BIG");
+        return issue;
+    }
 
 }

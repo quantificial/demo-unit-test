@@ -53,4 +53,10 @@ public class IssueRepositorySpy implements IssueNewRepository {
 		return null;
 	}
 
+	@Override
+	public Issue getBigIssue() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
